@@ -80,7 +80,13 @@ getent hosts google.com Successfully resolved the domain name to an IP address, 
 ```
 
 **Results:** The Kali Linux virtual machine was able to connect to the network and access the internet.
+---
 
+## 📸 Screenshots of My Cybersecurity Lab Setup
+
+### 1. Kali Linux Virtual Machine Setup
+
+![Kali Linux Setup](screenshots/VirtualBox_kali-linux-2026.3-virtualbox-amd64_30_10_2026_22_13_42.png)
 ## 5. What I Learned
 
 Through this practical exercise, I gained experience in:
