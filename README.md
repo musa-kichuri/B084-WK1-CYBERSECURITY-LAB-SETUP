@@ -6,6 +6,7 @@ My Week 1 practical project: Setting up a Cybersecurity and Ethical Hacking Lab 
 **Batch:** B082  
 **Project:** Cybersecurity & Ethical Hacking Lab Setup  
 **Author:** Musa kichuri
+**LinkedIn:** https://www.linkedin.com/in/musa-kichuri-15871a180/
 
 ## 1. Project Overview
 
