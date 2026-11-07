@@ -98,7 +98,7 @@ I checked the network settings to confirm that Kali Linux was connected to the c
 **Screenshot 3: Kali Linux Network Settings**
 
 
-![Kali Linux Network Settings](03-kali-network-settings.png)
+![Kali Linux Network Settings](screenshots-kali-network-settings.png.png)
 
 ## 🔎 Lab Verification
 
