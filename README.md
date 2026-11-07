@@ -57,7 +57,7 @@ A private NAT Network was created in VirtualBox to provide network connectivity 
 
 **Screenshot 1: VirtualBox Network Configuration**
 
-![VirtualBox Network Configuration](screenshots/01-virtualbox-network-config.png)
+![VirtualBox Network Configuration](01-virtualbox-network-config.png)
 
 ### Step 3: Import and Configure Kali Linux
 
@@ -78,7 +78,7 @@ The configuration included:
 
 **Screenshot 2: Kali Linux IP Configuration**
 
-![Kali Linux IP Configuration](screenshots/02-kali-ip-configuration.png)
+![Kali Linux IP Configuration](02-kali-ip-configuration.png)
 
 ### Step 5: Verify Kali Linux Network Settings
 
@@ -86,7 +86,8 @@ I checked the network settings to confirm that Kali Linux was connected to the c
 
 **Screenshot 3: Kali Linux Network Settings**
 
-![Kali Linux Network Settings](screenshots/03-kali-network-settings.png)
+
+![Kali Linux Network Settings](03-kali-network-settings.png)
 
 ## 🔎 Lab Verification
 
