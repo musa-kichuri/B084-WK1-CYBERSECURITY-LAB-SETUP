@@ -1,137 +1,146 @@
-# B084-WK1-CYBERSECURITY-LAB-SETUP
-My Week 1 practical project: Setting up a Cybersecurity and Ethical Hacking Lab using VirtualBox and Kali Linux.
-# 🔐 Cybersecurity Lab Setup – Week 1
+NETWORKWALKS-MUSA-B084-WK1-PM1-CYBERSECURITY-LAB-SETUP
+🔐 Cybersecurity Lab Setup
+Building an isolated virtual lab for penetration testing and ethical hacking practice
 
-**Program:** Cybersecurity Training – NetworkWalks  
-**Batch:** B082  
-**Project:** Cybersecurity & Ethical Hacking Lab Setup  
-**Author:** Musa kichuri
-**LinkedIn:** https://www.linkedin.com/in/musa-kichuri-15871a180/
+           
 
-## 1. Project Overview
 
-This project involved setting up a virtual laboratory for learning cybersecurity and ethical hacking.
 
-I used Oracle VirtualBox to run Kali Linux as a virtual machine on my computer. The aim was to prepare a practical environment where I can learn Linux, networking, security tools, and perform authorized security testing.
+![Cybersecurity](https://img.shields.io/badge/Project-Cybersecurity-404040?style=flat-square)
+![VirtualBox](https://img.shields.io/badge/VirtualBox-Virtualization-0070C0?style=flat-square)
+![Kali Linux](https://img.shields.io/badge/OS-Kali%20Linux-E87500?style=flat-square)
+![Network Security](https://img.shields.io/badge/Focus-Network%20Security-238F89?style=flat-square)
+![NetworkWalks](https://img.shields.io/badge/Program-NetworkWalks-404040?style=flat-square)
 
-## 2. Project Objectives
+## 📌 Project Overview
 
-The main objectives of this practical exercise were to:
+This project focuses on setting up a virtual cybersecurity lab using **Oracle VirtualBox and Kali Linux** as part of the Cybersecurity Program at NetworkWalks (Batch B084).
 
-- Install and prepare Oracle VirtualBox.
-- Download and extract the Kali Linux virtual machine package.
-- Import Kali Linux into VirtualBox.
-- Configure the virtual machine settings.
-- Explore VirtualBox network configuration.
-- Prepare a virtual environment for future cybersecurity exercises.
-- Understand the basic differences between NAT and NAT Network.
+The aim was to create a controlled environment for learning cybersecurity concepts, understanding virtual machine networking, and preparing for practical security testing exercises.
 
-## 3. System and Lab Configuration
+The lab uses a private NAT Network to provide network connectivity within the virtual environment.
 
-| Component | Configuration |
+## 🎯 Project Objectives
+
+- Install and configure VirtualBox.
+- Import and configure Kali Linux.
+- Create a private NAT Network.
+- Configure Kali Linux network settings.
+- Verify IP configuration and network connectivity.
+- Test DNS resolution.
+- Create a VM snapshot for recovery.
+- Document the lab setup process.
+
+## 🛠️ Tools & Technologies
+
+| Tool | Purpose |
 |---|---|
-| Host Operating System | Windows |
-| Host RAM | 8 GB |
-| Storage | 1 TB SSD |
-| Virtualization Software | Oracle VirtualBox |
-| Guest Operating System | Kali Linux |
-| Virtual Network | NAT Network |
-| Kali Linux RAM | NAT Network |
+| Oracle VirtualBox | Virtualization platform |
+| Kali Linux | Cybersecurity learning environment |
+| NAT Network | Virtual network configuration |
+| Windows Host | Main operating system |
 
-## 4. Lab Setup Process
+## 🏗️ Lab Setup & Configuration
 
-### Step 1: Installing Oracle VirtualBox
+### Step 1: Install and Configure VirtualBox
 
-I installed Oracle VirtualBox on my Windows computer to create and manage virtual machines.
+I installed Oracle VirtualBox to create and manage virtual machines for my cybersecurity learning environment.
 
-### Step 2: Downloading and Extracting Kali Linux
+### Step 2: Create a Private NAT Network
 
-I downloaded the Kali Linux VirtualBox image and extracted the downloaded package to access the virtual machine files.
+A private NAT Network was created in VirtualBox to provide network connectivity for the virtual machine.
 
-### Step 3: Importing Kali Linux
+**Network Configuration**
 
-I added the Kali Linux virtual machine to Oracle VirtualBox and checked that it could start successfully.
-
-### Step 4: Configuring the Virtual Machine
-
-I reviewed the virtual machine settings, including memory allocation, processor settings, and network adapter configuration.
-
-### Step 5: Virtual Network Configuration
-
-I explored the available VirtualBox networking options and worked on setting up a NAT Network for the cybersecurity lab.
-
-**My network configuration:**
-
-- Network Name: NAT Network
 - Network Type: NAT Network
-- IPv4 Prefix: 10.0.0.0/24
-- DHCP: Enabled
+- Network Name: NatNetwork
 
-### Step 6: Testing the Kali Linux Environment
+**Screenshot 1: VirtualBox Network Configuration**
 
-I used Linux terminal commands to inspect the network configuration and check connectivity.
+![VirtualBox Network Configuration](screenshots/01-virtualbox-network-config.png)
 
-Commands used:
+### Step 3: Import and Configure Kali Linux
 
-```bash
-ip addr Displayed the network interface and assigned IP address.
-ip route Displayed the default route and gateway.
-ping -c 4 8.8.8.8 Successfully received replies from the destination, confirming internet connectivity.
-getent hosts google.com Successfully resolved the domain name to an IP address, confirming DNS resolution.
-```
+Kali Linux was imported into VirtualBox and configured as the main virtual machine for the cybersecurity lab.
 
-**Results:** The Kali Linux virtual machine was able to connect to the network and access the internet.
+The VM network adapter was connected to the private NAT Network.
+
+### Step 4: Configure Kali Linux IP Address
+
+I checked and configured the network settings in Kali Linux to establish network communication.
+
+The configuration included:
+
+- IPv4 Address
+- Subnet Mask
+- Default Gateway
+- DNS Server
+
+**Screenshot 2: Kali Linux IP Configuration**
+
+![Kali Linux IP Configuration](screenshots/02-kali-ip-configuration.png)
+
+### Step 5: Verify Kali Linux Network Settings
+
+I checked the network settings to confirm that Kali Linux was connected to the configured virtual network.
+
+**Screenshot 3: Kali Linux Network Settings**
+
+![Kali Linux Network Settings](screenshots/03-kali-network-settings.png)
+
+## 🔎 Lab Verification
+
+The network configuration and connectivity were tested to confirm that the virtual machine could communicate through the configured network.
+
+The verification activities included:
+
+- Checking IP configuration.
+- Testing network connectivity.
+- Testing DNS resolution.
+
+## 💡 What I Learned
+
+Through this hands-on project, I gained practical experience in:
+
+1. **Virtualization:** Understanding how virtual machines work using VirtualBox.
+2. **Network Configuration:** Learning how to configure virtual network adapters.
+3. **NAT vs. NAT Network:** Understanding how NAT Network supports communication between connected virtual machines.
+4. **IP Configuration:** Learning about IP addresses, gateways, and DNS settings.
+5. **Documentation:** Recording technical configurations and documenting practical work.
+
+## 🔐 Connecting Data Analytics with Cybersecurity
+
+As someone developing skills in Data Science and Healthcare Data Analytics, I am also exploring cybersecurity to understand how to identify threats and protect systems that collect, process, and store data.
+
+My goal is to combine data analytics knowledge with cybersecurity skills to support the secure and responsible use of data, particularly sensitive healthcare information.
+
+## ⚠️ Security & Ethical Considerations
+
+This lab is intended for educational purposes and authorized cybersecurity practice only.
+
+All security testing should be performed on systems that I own or have explicit permission to test.
+
+## 🔗 Tools & Learning Resources
+
+- [Oracle VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+- [Kali Linux Official Website](https://www.kali.org/get-kali/)
+- [Kali Linux Documentation](https://www.kali.org/docs/)
+- [Wireshark Documentation](https://www.wireshark.org/docs/)
+- [TryHackMe](https://tryhackme.com/)
+
+## 🙏 Acknowledgment
+
+Special thanks to **Sir Waqas Karim (CCIE)** and the **NetworkWalks team** for their guidance, support, and the opportunity to gain practical cybersecurity experience.
+
+## 👤 Author
+Musa Kichuri
+LinkedIn: [ https://www.linkedin.com/in/musa-kichuri-15871a180/
+LinkedIn: [www.linkedin.com/in/datus-ekwabi-43b622173
+**Project:** Cybersecurity & Penetration Testing Lab Setup  
+**Program:** NetworkWalks Cybersecurity Program  
+**Batch:** B084  
+**Project Week:** Week 01
+
 ---
 
-## 📸 Screenshots of My Cybersecurity Lab Setup
-
-### 1. Kali Linux Virtual Machine Setup
-
-![Kali Linux Setup](screenshots/VirtualBox_kali-linux-2026.3-virtualbox-amd64_30_10_2026_22_13_42.png)
-## 5. What I Learned
-
-Through this practical exercise, I gained experience in:
-
-1. Understanding virtualization and how virtual machines work.
-2. Installing and running Kali Linux using VirtualBox.
-3. Understanding virtual machine hardware and network settings.
-4. Learning the differences between NAT and NAT Network.
-5. Using basic Linux commands to inspect network configuration.
-6. Preparing a controlled environment for cybersecurity practice.
-
-## 6. Challenges Encountered
-
-During the setup, I experienced some challenges locating and configuring the network settings in VirtualBox.
-
-I worked through the VirtualBox settings, identified the NAT Network configuration option, and continued setting up my virtual lab.
-
-This helped me understand the VirtualBox interface and become more familiar with virtual networking.
-
-## 7. Importance of This Project
-
-Setting up this laboratory provides a foundation for future practical cybersecurity exercises, including network analysis, vulnerability assessment, and ethical hacking.
-
-All security testing activities will be conducted in controlled environments and on systems where I have permission to perform testing.
-
-## 8. Conclusion
-
-Successfully setting up Kali Linux in VirtualBox was an important first step in my cybersecurity learning journey.
-
-I look forward to building on this knowledge through more practical exercises and developing the skills needed to pursue a career as a Cybersecurity Analyst.
-
-## 9. Project Evidence
-
-The screenshots below show my actual lab setup and configuration.
-
-- Kali Linux running in VirtualBox.
-- Virtual machine configuration.
-- Network configuration.
-- Terminal and connectivity verification.
-
-## 10. Acknowledgement
-
-I appreciate NetworkWalks and my mentor, Waqas Karim, for the guidance and learning opportunity provided through this cybersecurity training program.
-
-**Training:** NetworkWalks Cybersecurity Program  
-**Batch:** B084  
-**Week:** 01
+*Continuously learning, practicing, and building skills in Data Science, Healthcare Analytics, and Cybersecurity.* 🚀
