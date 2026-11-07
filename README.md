@@ -68,7 +68,7 @@ A private NAT Network was created in VirtualBox to provide network connectivity 
 
 **Screenshot 1: VirtualBox Network Configuration**
 
-![VirtualBox Network Configuration](01-virtualbox-network-config.png)
+![VirtualBox Network Configuration](screenshots-virtualbox-network-config.png.png)
 
 ### Step 3: Import and Configure Kali Linux
 
