@@ -134,8 +134,7 @@ Special thanks to **Sir Waqas Karim (CCIE)** and the **NetworkWalks team** for t
 
 ## 👤 Author
 Musa Kichuri
-LinkedIn: [ https://www.linkedin.com/in/musa-kichuri-15871a180/
-LinkedIn: [www.linkedin.com/in/datus-ekwabi-43b622173
+LinkedIn: [https://www.linkedin.com/in/musa-kichuri-15871a180/
 **Project:** Cybersecurity & Penetration Testing Lab Setup  
 **Program:** NetworkWalks Cybersecurity Program  
 **Batch:** B084  
