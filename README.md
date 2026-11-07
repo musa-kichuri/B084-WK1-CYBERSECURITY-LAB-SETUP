@@ -89,7 +89,7 @@ The configuration included:
 
 **Screenshot 2: Kali Linux IP Configuration**
 
-![Kali Linux IP Configuration](screenshots/02-kali-ip-configuration.png)
+![Kali Linux IP Configuration](screenshots-kali-ip-configuration.png.png)
 
 ### Step 5: Verify Kali Linux Network Settings
 
